@@ -45,7 +45,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Driving.cs" />
+     <Compile Include="Assets\Czolgi\Scripts\Driving.cs" />
+     <Compile Include="Assets\Czolgi\Scripts\KeyboardControl.cs" />
+     <Compile Include="Assets\Czolgi\Scripts\MainTank.cs" />
+     <Compile Include="Assets\Czolgi\Scripts\TankMovement.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>E:/Programy/Unity3d/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
