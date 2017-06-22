@@ -7,6 +7,7 @@ using System.Collections;
 /// 
 public class KeyboardControl: MonoBehaviour{
 	public string[] MoveControl=new string[4];         				   // Sterowanie
+	public enum direction{up=1,down,left,right};
 	public bool[] MoveControlPressed;								   // tablica do sprawdzanai czy klawisz zostanie zwolniony
 
 	int i;
